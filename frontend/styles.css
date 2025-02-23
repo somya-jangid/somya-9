@@ -1,0 +1,104 @@
+body {
+    background-color: #121212;
+    color: #E0E0E0;
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li a {
+    color: #E0E0E0;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s;
+}
+nav ul li a:hover {
+    color: #00FFFF;
+    border-bottom: 2px solid #00FFFF;
+}
+.hero {
+    background-image: url('https://example.com/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 100px 20px;
+}
+.cta-button {
+    background: rgba(255, 255, 255, 0.1);
+    border: 2px solid #00FFFF;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.cta-button:hover {
+    background: #00FFFF;
+}
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+.feature-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+.feature-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px #FF69B4;
+}
+.about-us {
+    display: flex;
+    padding: 50px 0;
+    background: linear-gradient(180deg, #121212, #1E1E1E);
+}
+.about-content img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+.testimonials {
+    padding: 50px 0;
+}
+.testimonial-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.contact-form {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-bottom: 2px solid #FF69B4;
+    background: transparent;
+    color: #E0E0E0;
+}
+.contact-form button {
+    background: linear-gradient(90deg, #FF69B4, #00FFFF);
+    border: none;
+    padding: 10px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+footer {
+    background: #1E1E1E;
+    padding: 20px;
+    text-align: center;
+}
